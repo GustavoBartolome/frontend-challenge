@@ -1,75 +1,63 @@
-# Nuxt 3 Minimal Starter
+# Frontend Coding Challenge
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Welcome to our Frontend Coding Challenge! This challenge is designed to test your ability to work with a Vue 3 project using Nuxt, TypeScript, and pnpm.
 
-## Setup
+## Requirements
 
-Make sure to install the dependencies:
+- Node.js (version 16 or higher)
+- pnpm (version 7 or higher)
+- Git
 
-```bash
-# npm
-npm install
+## Getting Started
 
-# pnpm
-pnpm install
+1. Clone this repository:
+   ```
+   git clone https://github.com/nyambe/frontend-challenge.git
+   ```
 
-# yarn
-yarn install
+2. Navigate to the project directory:
+   ```
+   cd frontend-challenge
+   ```
 
-# bun
-bun install
-```
+3. Install dependencies using pnpm:
+   ```
+   pnpm install
+   ```
 
-## Development Server
+4. Start the development server:
+   ```
+   pnpm run dev
+   ```
 
-Start the development server on `http://localhost:3000`:
+## The Challenge
 
-```bash
-# npm
-npm run dev
+Your task is to choose and complete one (or more if you're feeling ambitious) of the following challenges:
 
-# pnpm
-pnpm run dev
+1. **Change the Event Name**: Modify the event name in the store.
+2. **Add a New Menu Item**: Add a "Sponsors" item to the navigation menu.
+3. **Create and Add a New Component**: Create a simple new component and add it to the main page.
+4. **Modify the Ticket Prices**: Increase all ticket prices by $50.
+5. **Change the Color Scheme**: Update the color scheme of the hero section.
 
-# yarn
-yarn dev
+Detailed instructions for each task are provided in the presentation slides.
 
-# bun
-bun run dev
-```
+## Important Notes
 
-## Production
+- You must use pnpm for package management. Do not use npm or yarn.
+- Focus on following the instructions precisely.
+- It's okay if you can't complete a task fully – we're interested in seeing your approach and how you handle challenges.
+- Make sure to commit your changes and create a new branch for your work.
 
-Build the application for production:
+## Submission
 
-```bash
-# npm
-npm run build
+After completing your chosen task(s):
 
-# pnpm
-pnpm run build
+1. Create a new branch: `git checkout -b task-x-yourname`
+2. Commit your changes: `git commit -m "Completed task X"`
+3. Push your branch to GitHub: `git push -u origin task-x-yourname`
+4. Create a pull request or upload to your repo
 
-# yarn
-yarn build
+## Need Help?
 
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+If you have any questions or run into issues, don't hesitate to reach out. Good luck!
