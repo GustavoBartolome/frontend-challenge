@@ -21,9 +21,9 @@ useHead({
   </NuxtLayout>
 </template>
 
-
 <style>
-html, body {
+div {
   font-family: 'Nunito', sans-serif;
+  font-weight: 300;
 }
 </style>

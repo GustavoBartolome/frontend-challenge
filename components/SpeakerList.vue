@@ -4,8 +4,8 @@
       <h2 class="text-3xl font-extrabold text-gray-900 mb-8">Our Speakers</h2>
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         <div v-for="speaker in speakers" :key="speaker.name" class="bg-gray-100 rounded-lg overflow-hidden shadow">
-          <img :src="speaker.image" :alt="speaker.name" class="w-full h-48 object-cover">
-          <div class="p-4">
+          <img :src="speaker.image" :alt="speaker.name" class="w-full object-cover p-20 rounded-full">
+          <div class="p-0 text-center">
             <h3 class="font-bold text-xl mb-2">{{ speaker.name }}</h3>
             <p class="text-gray-600">{{ speaker.bio }}</p>
           </div>

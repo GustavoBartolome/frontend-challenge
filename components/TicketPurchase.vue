@@ -22,11 +22,12 @@
 
 <script setup lang="ts">
 import { useEventStore } from '~/stores/event'
+import type { Ticket } from '~/stores/event'
 
 const eventStore = useEventStore()
 const { tickets } = storeToRefs(eventStore)
 
-const purchaseTicket = (ticket) => {
+const purchaseTicket = (ticket: Ticket) => {
   // Implement ticket purchase logic here
   console.log(`Purchasing ${ticket.type} ticket`)
 }
