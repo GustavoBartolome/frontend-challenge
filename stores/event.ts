@@ -31,7 +31,7 @@ export interface Ticket {
 }
 
 export const useEventStore = defineStore('event', () => {
-  const eventName = ref<string>('Amazing Tech Conference 2024')
+  const eventName = ref<string>('Tech Innovators Summit 2024')
   const eventDate = ref<string>('October 15-17, 2024')
   const eventLocation = ref<string>('Tech Center, San Francisco, CA')
   
