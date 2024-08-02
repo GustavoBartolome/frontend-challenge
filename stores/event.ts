@@ -5,6 +5,8 @@ import { ref } from 'vue'
 interface MenuItem {
   name: string;
   href: string;
+  name:'Sponsors',
+  href: '#sponsors'
 }
 
 interface Session {
